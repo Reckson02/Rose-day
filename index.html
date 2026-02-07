@@ -158,8 +158,8 @@ button:hover{
 <body>
 
 <div class="container">
-  <h1>🌹 Happy Rose Day, My Love 🌹</h1>
-   <h1>🌹 Can i say something? </h1>
+  <h1> Happy Rose Day, My Love 💐</h1>
+   <h1> Can i say something? </h1>
 
   <div class="buttons" id="btns">
     <button class="yes" onclick="celebrate()">YES 💖</button>
@@ -175,6 +175,7 @@ setInterval(()=>{
   const rose=document.createElement("div");
   rose.className="rose";
   rose.innerHTML="🌹";
+  rose.innerHTML="🌸";
   rose.style.left=Math.random()*100+"vw";
   rose.style.animationDuration=4+Math.random()*4+"s";
   document.body.appendChild(rose);
@@ -187,7 +188,7 @@ function celebrate(){
   const proposal=document.getElementById("proposal");
   proposal.innerHTML=`<div class="romantic-text" id="romanticText"></div>`;
 
-  const sentence="Just like a rose, your love adds color, fragrance, and meaning to my life in the most beautiful way. Every moment with you feels special, and my heart finds its peace whenever I think of you. Happy Rose Day to the one who makes my world bloom with love 💍❤️";
+  const sentence="Just like a rose, your love adds color, fragrance, and meaning to my life in the most beautiful way. Every moment with you feels special, and my heart finds its peace whenever I think of you. Happy Rose Day to the one who makes my world bloom with love ❤️";
   let i=0;
   const textBox=document.getElementById("romanticText");
 
